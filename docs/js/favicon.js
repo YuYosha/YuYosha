@@ -9,9 +9,7 @@ onload = function() {
         ctx.strokeStyle = 'fuchsia';
         
             tc = setInterval(updateLoader, 60);
-            this.textContent = 'Loading';
-            this.style.backgroundColor = '#999';
-            this.setAttribute('disabled','');
+           
     
     }
 };
